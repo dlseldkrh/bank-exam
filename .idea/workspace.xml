@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6de66052-8430-4047-b6ca-c192a4cf50ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/BlogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/config/RestExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/controller/BankBlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/entity/factory/CustomRequestEntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/entity/factory/KakaoRequestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/entity/factory/NaverRequestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/entity/factory/SearchRequestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/service/BankBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/java/com/bank/blog/service/BankBlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-blog/src/test/java/com/bank/blog/controller/BankBlogControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-core/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-core/src/main/java/com/bank/core/entity/SearchParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/java/com/bank/search/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/java/com/bank/search/config/CacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/java/com/bank/search/config/RestExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/java/com/bank/search/controller/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/java/com/bank/search/entity/SearchWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/java/com/bank/search/repository/SearchRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/java/com/bank/search/service/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/java/com/bank/search/service/SearchServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/main/resources/db/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-search/src/test/java/com/bank/search/controller/SearchControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="6de66052-8430-4047-b6ca-c192a4cf50ab" name="Changes" comment="Create new Bank Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,6 +244,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663496929033</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create new Bank Project">
+      <created>1663598917350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663598917350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,5 +264,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create new Bank Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new Bank Project" />
   </component>
 </project>
