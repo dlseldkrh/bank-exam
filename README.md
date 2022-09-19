@@ -154,10 +154,12 @@ String sort; // 정렬기준 (CURR)|(accuracy)|(sim)|(DATE)|(date)|(recency) 정
    > 4. fix 요청 후 populate로 조회 : "f"가 고정되어 맨 앞에 데이터로 조회 됨
 
 ## 기타 조건
+### * 아래 추가 요건들에 대해서 조치 하였습니다.
 - [x] 멀티 모듈로 생성
-- [x] 트래픽이 많고 데이터가 큰 경우 : @Cacheable 을 이용
+- [x] 트래픽이 많고 데이터가 큰 경우 : @Cacheable 을 이용해서 처리 (타이머, 수정 필요 시 cache 초기화)
 - [x] 동시성 이슈 : JPA의 비관적 락 이용
-- [x] 1안 문제 시 2안으로
+- [x] K안 문제로 에러 발생 시 N안으로
 
-``` java
-```
+## 파일 다운로드 링크 추가
+- [bank-blog jar](https://github.com/dlseldkrh/bank-exam/blob/main/bank-blog-1.0-SNAPSHOT.jar)  
+- [bank-search jar](https://github.com/dlseldkrh/bank-exam/blob/main/bank-search-1.0-SNAPSHOT.jar)
