@@ -1,0 +1,5 @@
+rootProject.name = 'bank-project'
+include 'bank-blog'
+include 'bank-search'
+include 'bank-core'
+

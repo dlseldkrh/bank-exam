@@ -1,0 +1,75 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.3'
+    id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+    id 'java'
+}
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    group 'org.bank'
+    version '1.0-SNAPSHOT'
+
+    configurations {
+        compileOnly {
+            extendsFrom annotationProcessor
+        }
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        compileOnly 'org.projectlombok:lombok'
+        annotationProcessor 'org.projectlombok:lombok'
+        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        implementation 'org.springframework.boot:spring-boot-starter-validation'
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
+
+project(":bank-core") {
+    bootJar {
+        enabled = false;
+    }
+    jar {
+        enabled = true
+    }
+}
+
+project(":bank-blog") {
+    jar {
+        archivesBaseName = "bank-blog"
+    }
+
+    version '1.0-SNAPSHOT'
+
+    dependencies {
+        implementation project(':bank-core')
+        implementation 'org.json:json:20220320'
+        implementation 'org.apache.httpcomponents:httpcore:4.4.15'
+        implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    }
+}
+
+project(":bank-search") {
+    jar {
+        archivesBaseName = "bank-search"
+    }
+
+    version '1.0-SNAPSHOT'
+
+    dependencies {
+        implementation project(':bank-core')
+        runtimeOnly 'com.h2database:h2'
+        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+        implementation 'org.springframework.boot:spring-boot-starter-cache' // cache 사용
+    }
+}
